@@ -22,7 +22,7 @@ body{
   }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Roboto Condensed;
+    font-family: "Roboto Condensed";
 }
 
 h1 {
@@ -48,7 +48,7 @@ h3 {
 h4 {
     font-size: 1.5em;
     letter-spacing: 0.4px;
-    margin: 0 0 15px 0;
+    margin-bottom: 15px;
 }
 
 h5 {
@@ -57,7 +57,7 @@ h5 {
 
 .nav-bar{
     background-color: rgb(25, 33, 41);
-    padding: 14px 0 14px 0;
+    padding: 14px 0;
 }
 
 .nav-bar a{
@@ -87,7 +87,7 @@ h5 {
 .link-btn{
     background: rgb(67, 163, 230);
     color:white;
-    font-family: Roboto Condensed;
+    font-family: "Roboto Condensed";
     font-size: 2em;
     letter-spacing: 0.5px;
     text-align: center;
@@ -101,7 +101,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
-    padding: 50px 0 0 0;
+    padding-top: 50px;
     position: relative;
 }
 
@@ -239,4 +239,32 @@ address {
 .map-frame {
     height: 375px;
     width: 60%;
+}
+
+/* Form */
+.slot-form-container {
+    width: 40%;
+    margin: 18px 0 auto 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.slot-form-container label {
+    line-height: 15px;
+    margin: 5px;
+}
+
+.slot-form-container input, select {
+    height: 20px;
+    outline: none;
+    padding: 3px 3px 3px 3px;
+    width: 100%;
+}
+
+.slot-form-container button {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    margin-top: 15px;
 }

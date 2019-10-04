@@ -134,6 +134,32 @@
                 </tbody>
             </table>
         <h3>Schedule a Time Slot</h3>
+        <form action="/register" method="POST" class="slot-form">
+            <div class="slot-form-container">
+                <label for="email">Enter your email:</label>
+                <input type="email" placeholder="E-Mail">
+            </div>
+            <div class="slot-form-container">
+                <label for="participants">Number of participants:</label>
+                <input type="number" placeholder="Number of Participants">
+            </div>
+            <div class="slot-form-container">
+                <label for="date">Date:</label>
+                <input type="date">
+            </div>
+            <div class="slot-form-container">
+                <label for="time">Time:</label>
+                <select name="select" id="">
+                    <option value="early">9:00 - 11:00</option>
+                    <option value="mid">12:00 - 14:00</option>
+                    <option value="late">15:00 - 17:00</option>
+                </select>
+            </div>
+            <div class="slot-form-container">
+                <label for="button">Reserve your Slot!</label>
+                <input type="submit">
+            </div>
+        </form>
     </section>
 
     <footer class="dark-background footer">
